@@ -1,4 +1,4 @@
-package edu.sjsu.xuy87.springpetclinic;
+package springpetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
