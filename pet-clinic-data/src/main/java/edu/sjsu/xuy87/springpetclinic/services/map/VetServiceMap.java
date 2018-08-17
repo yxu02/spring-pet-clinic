@@ -1,11 +1,13 @@
 package edu.sjsu.xuy87.springpetclinic.services.map;
 
 import edu.sjsu.xuy87.springpetclinic.model.Vet;
-import edu.sjsu.xuy87.springpetclinic.services.BaseCRUDService;
+import edu.sjsu.xuy87.springpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Integer> implements BaseCRUDService<Vet, Integer> {
+@Service
+public class VetServiceMap extends AbstractMapService<Vet, Integer> implements VetService {
     @Override
     public Vet findById(Integer id) {
         return super.findById(id);
