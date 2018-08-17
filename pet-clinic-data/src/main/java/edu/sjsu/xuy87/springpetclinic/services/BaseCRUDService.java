@@ -4,7 +4,7 @@ import java.util.Set;
 
 public interface BaseCRUDService<T, ID> {
 
-    T findById(int id);
+    T findById(ID id);
 
     Set<T> findAll();
 
